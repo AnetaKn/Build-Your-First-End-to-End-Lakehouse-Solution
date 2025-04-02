@@ -76,7 +76,7 @@ Change the filter from `All` to `Azure` and select `Azure Blob Storage` for the 
 ## 1.1.8. **Enter SAS Token**
 Paste the SAS token from the description. This token grants temporary access to the blob storage, which will expire after a set duration.
 
-SAS Token (Read Only) `sv=2022-11-02&ss=bfqt&srt=sco&sp=rlpitf&se=2025-01-01T06:25:40Z&st=2024-08-26T21:25:40Z&spr=https&sig=zphlX3YvT3BLTyS4tnWNBtsArqQbHdP%2B2t8R0Tu%2BMvM%3D`
+SAS Token (Read Only) `sv=2024-11-04&ss=bfqt&srt=sco&sp=rlacuptfx&se=2026-04-02T19:07:44Z&st=2025-04-02T11:07:44Z&spr=https&sig=dMB4e%2BN%2BBsXfBR%2FRwbrWKxja3t1Bzjm4q%2BqNTw03mcQ%3D`
 ![Step](../screenshots/1/8.jpg)
 
 ## 1.1.9. **Test Connection**
@@ -271,8 +271,8 @@ There are multiple source options available for accessing data directly without 
 ## 1.3.3. Configure New Shortcut
 Provide the necessary URL by copying and pasting it from the task description. Then, choose your connection, retaining the automatically generated name if possible. For authentication, select `SAS token`, paste the provided token, and then click `Next` after filling in all details.
 
-* Blob Storage Account URL `https://transportation23kotcorp.dfs.core.windows.net/`
-* SAS Token (Read Only) `sv=2022-11-02&ss=bfqt&srt=sco&sp=rwlacpx&se=2025-01-01T07:11:02Z&st=2024-09-11T22:11:02Z&spr=https&sig=u%2BX878QKr3p5NZnK%2BU4l7iXbzJiMsY9lpLbj%2BzeRix8%3D`
+* Blob Storage Account URL `https://transportation23kotco.dfs.core.windows.net/`
+* SAS Token (Read Only) `sv=2024-11-04&ss=bfqt&srt=sco&sp=rwlacupx&se=2026-04-02T20:49:20Z&st=2025-04-02T12:49:20Z&spr=https&sig=3o8OvFzu8NP9MtVxaG1dnzoczi%2B1a6uLQiq7lEZDGlI%3D`
 
 ![Step](../screenshots/1/36.jpg)
 
