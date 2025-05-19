@@ -46,11 +46,11 @@ Scroll down to see your Fabric workloads.
 
 ## 8. Explore Help Options
 Use the on-screen numbers as a guide to explore all available help options.
-![Login](../screenshots/start/7.jpg)
+![Login](../screenshots/start/Help.png)
 
 ## 9. Explore Settings and Admin Portal
 Follow the on-screen instructions to explore the settings. Note that while you cannot configure settings due to access restrictions, you are welcome to browse.
-![Login](../screenshots/start/8.jpg)
+![Login](../screenshots/start/Settings.png)
 
 ## 10. Navigate Back and Create a Workspace
 Return to the main screen and click on `Synapse Data Engineering` to begin creating a new workspace.
