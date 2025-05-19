@@ -62,7 +62,7 @@ Give your new workspace a name, adhering to the provided naming convention. Veri
 
 ![Login](../screenshots/start/Workspace2.png)
 
-Expand `Advance` and make sure you assign this workspace to a Fabric trial capacity. Then click `Apply` button.
+Expand `Advanced` and make sure you assign this workspace to a Fabric Trial capacity. Then click `Apply` button.
 
 ![Login](../screenshots/start/Workspace3.png)
 
