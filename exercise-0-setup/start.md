@@ -38,8 +38,11 @@ If you don't see the screen as above, click on the icon in the bottom left corne
 
 
 ## 7. Explore Workloads
-Click the Microsoft Fabric icon in the bottom left corner to explore available workloads.
-![Login](../screenshots/start/5.jpg)
+Click the Workloads icon on the left side to explore available workloads.
+![Login](../screenshots/start/Workloads1.png)
+
+Scroll down to see your Fabric workloads.
+![Login](../screenshots/start/Workloads2.png)
 
 ## 8. Explore Help Options
 Use the on-screen numbers as a guide to explore all available help options.
