@@ -54,15 +54,15 @@ Follow the on-screen instructions to explore the settings. Note that while you c
 
 ## 10. Create a New Workspace. 
 Click on the `Workspaces` icon located on the left part of the screen.
-A sidebar will appear with a list of all accessible subscriptions. Follow the instructions and click `New Workspace.
+A sidebar will appear with a list of all accessible subscriptions. Follow the instructions and click `New workspace`.
 ![Login](../screenshots/start/Workspace1.png)
 
 ## 11. Name Your Workspace
-Give your new workspace a name, adhering to the provided naming convention. Verify the name and click `Apply.` Follow the naming convention and assign a name: `urban-innovation-deNNN`, where `NNN` represents the number assigned to you. For example, `urban-innovation-de001.
+Give your new workspace a name, adhering to the provided naming convention. Verify the name and click `Apply`. Follow the naming convention and assign a name: `urban-innovation-deNNN`, where `NNN` represents the number assigned to you. For example, `urban-innovation-de001`.
 
 ![Login](../screenshots/start/Workspace2.png)
 
-Expand "Advance" and make sure you assign this workspace to a Fabric trial capacity. Then click "Apply" button.
+Expand `Advance` and make sure you assign this workspace to a Fabric trial capacity. Then click `Apply` button.
 
 ![Login](../screenshots/start/Workspace3.png)
 
