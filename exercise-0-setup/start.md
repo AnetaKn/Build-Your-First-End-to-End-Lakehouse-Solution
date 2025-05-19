@@ -10,28 +10,32 @@
 Visit the Microsoft Fabric website at https://fabric.microsoft.com/.
 
 ## 2. Log In with Assigned Credentials
-Use the credentials provided on the business card located on your table.
+Use the provided credentials.
 ![Login](../screenshots/start/1.jpg)
 
 ## 3. Enter Your Password and Sign In
-Input your password in the designated field and click the `Sign In` button.
+Input your password in the designated field and click the `Sign in` button.
 ![Login](../screenshots/start/2.jpg)
 
 ## 4. Update Your Password
 You are required to update your password upon first login. Please follow the prompts to do so.
 
 > [!TIP]  
-> **We advise you to write your password on the back side of the business card along with your login details, in case you may need to restart your PC and forget the password.**
+> **We advise you to write down your password along with your login details, in case you may need to restart your PC and forget the password.**
 
 ![Login](../screenshots/start/9.jpg)
 
 ## 5. Setup Multi-Factor Authentication (MFA)
-As per Tenants' policy, setting up MFA is required. However, you can defer this by selecting `Ask Me Later.`
+As per Tenants' policy, setting up MFA is required. However, you can defer this by selecting `Ask later.`
 ![Login](../screenshots/start/10.jpg)
 
 ## 6. Welcome to Microsoft Fabric
 You have successfully logged in to Microsoft Fabric!
-![Login](../screenshots/start/4.jpg)
+![Login](../screenshots/start/Welcome.png)
+
+If you don't see the screen as above, click on the icon in the bottom left corner and click on  `Fabric ->` in the fly-out pane.
+![Login](../screenshots/start/Flyout.png)
+
 
 ## 7. Explore Workloads
 Click the Microsoft Fabric icon in the bottom left corner to explore available workloads.
