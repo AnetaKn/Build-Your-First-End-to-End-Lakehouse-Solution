@@ -52,26 +52,23 @@ Use the on-screen numbers as a guide to explore all available help options.
 Follow the on-screen instructions to explore the settings. Note that while you cannot configure settings due to access restrictions, you are welcome to browse.
 ![Login](../screenshots/start/Settings.png)
 
-## 10. Navigate Back and Create a Workspace
-Return to the main screen and click on `Synapse Data Engineering` to begin creating a new workspace.
-![Login](../screenshots/start/11.jpg)
-
-## 11. Access Workspaces
+## 10. Create a New Workspace. 
 Click on the `Workspaces` icon located on the left part of the screen.
-![Login](../screenshots/start/12.jpg)
+A sidebar will appear with a list of all accessible subscriptions. Follow the instructions and click `New Workspace.
+![Login](../screenshots/start/Workspace1.png)
 
-## 12. Create a New Workspace
-A sidebar will appear with a list of all accessible subscriptions. Follow the instructions and click `New Workspace.`
-![Login](../screenshots/start/13.jpg)
+## 11. Name Your Workspace
+Give your new workspace a name, adhering to the provided naming convention. Verify the name and click `Apply.` Follow the naming convention and assign a name: `urban-innovation-deNNN`, where `NNN` represents the number assigned to you. For example, `urban-innovation-de001.
 
-## 13. Name Your Workspace
-Give your new workspace a name, adhering to the provided naming convention. Verify the name and click `Apply.` Follow the naming convention and assign a name: `urban-innovation-deNNN`, where `NNN` represents the number assigned to you. For example, `urban-innovation-de001` (Estera’s workspace).
+![Login](../screenshots/start/Workspace2.png)
 
-![Login](../screenshots/start/14.jpg)
+Expand "Advance" and make sure you assign this workspace to a Fabric trial capacity. Then click "Apply" button.
 
-## 14. Workspace Creation Complete
+![Login](../screenshots/start/Workspace3.png)
+
+## 12. Workspace Creation Complete
 Congratulations, your new workspace has been successfully created! This dedicated space is for you to innovate and build today.
-![Login](../screenshots/start/15.jpg)
+![Login](../screenshots/start/Workspace4.png)
 
 
 ## 15. Adjust default pool size to 2 nodes
