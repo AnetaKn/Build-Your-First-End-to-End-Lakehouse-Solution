@@ -30,28 +30,26 @@ For those who complete the primary tasks ahead of time, we've prepared [addition
 
 # Task 1.1 Create a pipeline that ingests data from an external Azure Blob Storage account and writes it to Lakehouse (Bronze layer)
 
-## 1.1.1. **Switch to Data Factory View**
-Navigate to the Data Factory section by following the numbered instructions on the screenshot provided.
+## 1.1.1. **Confirm Fabric Section and Workspace**
+Make sure that you are in the Fabric section and in the workspace that you created in previous excercise.
+![Step](../screenshots/1/Pipeline1.png)
 
-![Step](../screenshots/1/1.jpg)
-
-## 1.1.2. **Confirm Data Factory Access** 
-Ensure you are in the Data Factory section. Begin exploring data integration at scale using data pipelines.
+## 1.1.2. **Create a New Pipeline** 
+Click on `New item` and then `Data pipeline`.
 
 > [!IMPORTANT]  
 > Please be aware that when accessing the data pipeline configuration pop-up, there may be a brief delay before it appears. Allow a few seconds for the pop-up window to load completely. In this window, you will have the option to specify the name of the data pipeline. It is important to avoid clicking multiple times during this delay, as this could result in the creation of multiple data pipelines inadvertently.
+![Step](../screenshots/1/Pipeline2.png)
 
-![Step](../screenshots/1/2.jpg)
+
+## 1.1.3. **Name Your Data Pipeline**
+Name your data pipeline, recommended to be `LoadRawTaxiData`.
+![Step](../screenshots/1/Pipeline3.png)
 
 
-## 1.1.3. **Create and Name Your Data Pipeline**
-Name your data pipeline, recommended to be `LoadRawTaxiData`. Select `Pipeline Activity` and then `Copy Data`.
-
-![Step](../screenshots/1/3.jpg)
-
-## 1.1.4. **Edit Pipeline Elements**
-Make adjustments and observe the changes in the main screen's editing area.
-![Step](../screenshots/1/4.jpg)
+## 1.1.4. **Edit Pipeline Activity**
+Select `Pipeline Activity` and then `Copy Data`.
+![Step](../screenshots/1/Pipeline4.png)
 
 
 ## 1.1.5. **Configure Data Store**
