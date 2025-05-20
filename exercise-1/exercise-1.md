@@ -119,51 +119,51 @@ Select your workspace. Follow [the naming conventions provided](../exercise-0-se
 Verify the newly created Lakehouse is visible under the appropriate tab.
 ![Step](../screenshots/1/Pipeline18.png)
 
-## 1.1.19. **Configure Advanced Options**
-Expand the `Advanced Options` and select the desired table action, such as `Append`. Specify the table by clicking `New`.
+## 1.1.19. **Configure Options**
+Select the desired table action, such as `Append`. Specify the table by clicking `New`.
 ![Step](../screenshots/1/Pipeline19.png)
 
 ## 1.1.20. **Set Table Name**
 Name the table as `green201501` according to [the naming conventions](../exercise-0-setup/naming-convention.md), click `Create`, then return to the `General` tab.
 ![Step](../screenshots/1/Pipeline20.png)
 
-## 1.1.20. **Detail Copy Activity**
+## 1.1.21. **Detail Copy Activity**
 Name the copy activity to reflect its purpose, e.g., `Load NYC Taxi Green 2015 Jan`. Review and, if necessary, adjust the timeout, retry policies, and explore advanced options.
-![Step](../screenshots/1/Pipeline20.png)
-
-## 1.1.21. **Validate Pipeline**
-Ensure the pipeline is error-free by clicking `Validate`. Once validated, close the sidebar.
 ![Step](../screenshots/1/Pipeline21.png)
 
-## 1.1.22. **Save and Run Pipeline**
-Save your pipeline settings by clicking `Save`, then initiate the pipeline by clicking `Run`.
+## 1.1.22. **Validate Pipeline**
+Ensure the pipeline is error-free by clicking `Validate`. Once validated, close the sidebar.
 ![Step](../screenshots/1/Pipeline22.png)
+
+## 1.1.23. **Save and Run Pipeline**
+Save your pipeline settings by clicking `Save`, then initiate the pipeline by clicking `Run`.
+![Step](../screenshots/1/Pipeline23.png)
 
 
 > [!NOTE]
 > Fabric's intelligent compute resources are dynamically adjusted based on historical usage, peak demands, and current activity levels. With many of us today working simultaneously, primarily within the same region, startup times for Spark compute instances may be longer than usual. Typically, our starter pool initiates new Spark sessions in about 10 seconds.
 
 
-## 1.1.23. **Monitor Pipeline Execution**
+## 1.1.24. **Monitor Pipeline Execution**
 Observe the notification indicating the pipeline is running, then switch to the `Output` tab.
-![Step](../screenshots/1/Pipeline23.png)
-
-## 1.1.24. **Confirm Pipeline Success**
-Check the completion time and ensure the pipeline has succeeded. Click on the highlighted activity name for more details.
 ![Step](../screenshots/1/Pipeline24.png)
 
-## 1.1.25. **Review Data Transfer Details**
-In the sidebar, review details such as total duration and the amount of data transferred. Then navigate back to your workspace using the icon indicated as number three.
+## 1.1.25. **Confirm Pipeline Success**
+Check the completion time and ensure the pipeline has succeeded.
 ![Step](../screenshots/1/Pipeline25.png)
 
-## 1.1.26. **Access Your Workspace**
-In your workspace, you should find the `LoadRawTaxiData` pipeline and the `bronzerawdata` Lakehouse. Enter the Lakehouse.
+## 1.1.26. **Review Data Transfer Details**
+Click on the highlighted activity name for more details. In the sidebar, review details such as total duration and the amount of data transferred. Then navigate back to your workspace using the icon indicated as number four.
 ![Step](../screenshots/1/Pipeline26.png)
 
-## 1.1.27. **Review Data Table**
+## 1.1.27. **Access Your Workspace**
+In your workspace, you should find the `LoadRawTaxiData` pipeline and the `bronzerawdata` Lakehouse. Enter the Lakehouse by clicking on the ellipsis and then `Open`.
+![Step](../screenshots/1/Pipeline27.png)
+
+## 1.1.28. **Review Data Table**
 In the `Tables` section, observe the new table and preview the data it contains.
 
-![Step](../screenshots/1/Pipeline27.png)
+![Step](../screenshots/1/Pipeline28.png)
 
 
 ---
