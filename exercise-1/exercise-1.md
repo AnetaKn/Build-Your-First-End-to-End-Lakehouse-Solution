@@ -216,26 +216,29 @@ You can work with the data in the lakehouse in two modes:
 
 Fabric's data warehouse experience allows you to transition from the lake view of the Lakehouse (which supports data engineering and Apache Spark) to the SQL experiences that a traditional data warehouse would provide.
 
-![Step](../screenshots/1/27.jpg)
+![Step](../screenshots/1/Lakehouse2.jpg)
 
 ## 1.2.2. **Explore Lakehouse Properties**
 In the `Tables` section of your Lakehouse, click the three dots next to your table name and select `Properties` from the dropdown menu.
-![Step](../screenshots/1/28.jpg)
+![Step](../screenshots/1/Lakehouse3.jpg)
 
 ## 1.2.3. **Data Format and Management**
 Observe that the table's data format is listed as `Managed`, indicating that the table is a managed entity. Also, note that this table has been optimized using Z-order optimization; further details can be found in the extra section.
-![Step](../screenshots/1/29.jpg)
+![Step](../screenshots/1/Lakehouse4.managed.jpg)
 
 > [!TIP]
 > Explore managed vs unmanaged tables for Fabric Spark by [reviewing an article written by our teammate Aitor, who is part of the Customer Advisory Team](https://murggu.medium.com/creating-managed-and-external-spark-tables-in-fabric-lakehouse-ef6212e75e81).
 
 ## 1.2.4. **Review Table Files**
-Return to the Lakehouse overview, expand the table options, and select `Files` to examine the data. Notice that your loaded data is in Parquet format, which is now part of a Delta Lake due to the conversion process.
-![Step](../screenshots/1/30.jpg)
+Return to the Lakehouse overview, expand the table options, and select `Files` to examine the data. 
+![Step](../screenshots/1/Lakehouse5a.jpg)
+
+Notice that your loaded data is in Parquet format, which is now part of a Delta Lake due to the conversion process.
+![Step](../screenshots/1/Lakehouse5b.jpg)
 
 ## 1.2.5. **Final Lakehouse Overview**
 Navigate back to the main Lakehouse view, expand the table options for the final time, and select `Maintenance`.
-![Step](../screenshots/1/31.jpg)
+![Step](../screenshots/1/Lakehouse6.maintenance.jpg)
 
 ## 1.2.6. **Maintenance Options and Optimization**
 Here, you will find options for optimizing file size and vacuuming, which involves removing files that are no longer needed. Both processes can be automated. This section also details how Z-order optimization is applied to your data; hover over the information icon for more details.
@@ -243,7 +246,7 @@ Here, you will find options for optimizing file size and vacuuming, which involv
 
 ## 1.2.7. **Completion of Task**
 With the exploration of the Lakehouse's features and maintenance options, this task is now completed.
-![Step](../screenshots/1/33.jpg)
+![Step](../screenshots/1/Lakehouse7.jpg)
 
 
 </details>
