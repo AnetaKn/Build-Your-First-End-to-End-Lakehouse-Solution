@@ -361,30 +361,30 @@ Note that the default session expiration time for Starter and Spark Pools is set
 
 1.  On the screenshot I demo (via the screenshots, there is no live or gif demo) loading parquet data into a Delta table using the 'Load to Table' feature.
    
-     ![Load Data](../screenshots/extra/SparkSession1.png)
+     ![Load Data](../screenshots/1/SparkSession1.png)
 2. The table creation was successful as indicated by the notification on the screen. I navigate to the monitoring hub to showcase the current activity.
 
-     ![Monitoring Hub](../screenshots/extra/SparkSession2.png)
+     ![Monitoring Hub](../screenshots/1/SparkSession2.png)
 
 
 2. Inside the Monitoring Hub, we observe, the activity is still running. Read the explanation for why; it's presented in the screenshot. Click on the three dots "..." and select "View details",
 
-     ![View Details](../screenshots/extra/SparkSession3.png)
+     ![View Details](../screenshots/1/SparkSession3.png)
 
 3. In the details view, point out the crucial information. Pay special attention to the highlighted content in the screenshot.
-     ![Session Details](../screenshots/extra/SparkSession4.png)
+     ![Session Details](../screenshots/1/SparkSession4.png)
 
 4. After reviewing all the callouts elements, the necessity to cancell the session is clear. Let me show you how to do that. Again, click on the three dots, and click 'cancel'.
 
-     ![Cancel Session](../screenshots/extra/SparkSession5.png)
+     ![Cancel Session](../screenshots/1/SparkSession5.png)
    
     Display how to confirm this action by choosing "Yes, stop".
 
-    ![Confirm Termination](../screenshots/extra/SparkSession6.png)
+    ![Confirm Termination](../screenshots/1/SparkSession6.png)
 
 5. Confirm that the session has been successfully terminated as seen on screen.
 
-     ![Termination Confirmation](../screenshots/extra/SparkSession7.png)
+     ![Termination Confirmation](../screenshots/1/SparkSession7.png)
 
 **Discuss with instructors the impact of Fabric capacities and Fabric regions, [concurrency limits](https://learn.microsoft.com/en-us/fabric/data-engineering/spark-job-concurrency-and-queueing), as well as the intelligent pooling mechanism, and the variance between workshop and real-world scenarios.** 
 
