@@ -103,25 +103,29 @@ Note additional elements in the file path section. Change the file format to `Pa
 Review the data preview showing the table contents from the external blob storage, then close the preview window.
 ![Step](../screenshots/1/Pipeline14.png)
 
-## 1.1.15. **Define Data Destination**
-Switch to the `Destination` tab, select `Storage Workspace`, then `Lakehouse` and click `New` to create a new Lakehouse.
+## 1.1.15. **Set Data Destination**
+Switch to the `Destination` tab, select `More`.
 ![Step](../screenshots/1/Pipeline15.png)
 
-## 1.1.16. **Name the Lakehouse**
-Follow [the naming conventions provided](../exercise-0-setup/naming-convention.md), input the name, and click `Create`.
+## 1.1.16. **Define Data Destination**
+In the `Home` section select `Lakehouse` and click `New` to create a new Lakehouse.
 ![Step](../screenshots/1/Pipeline16.png)
 
-## 1.1.17. **Review Lakehouse**
-Verify the newly created Lakehouse is visible under the appropriate tab.
+## 1.1.17. **Name the Lakehouse**
+Select your workspace. Follow [the naming conventions provided](../exercise-0-setup/naming-convention.md), input the name, and click `Create and connect`.
 ![Step](../screenshots/1/Pipeline17.png)
 
-## 1.1.18. **Configure Advanced Options**
-Expand the `Advanced Options` and select the desired table action, such as `Append`. Specify the table by clicking `New`.
+## 1.1.18. **Review Lakehouse**
+Verify the newly created Lakehouse is visible under the appropriate tab.
 ![Step](../screenshots/1/Pipeline18.png)
 
-## 1.1.19. **Set Table Name**
-Name the table as `green201501` according to [the naming conventions](../exercise-0-setup/naming-convention.md), click `Create`, then return to the `General` tab.
+## 1.1.19. **Configure Advanced Options**
+Expand the `Advanced Options` and select the desired table action, such as `Append`. Specify the table by clicking `New`.
 ![Step](../screenshots/1/Pipeline19.png)
+
+## 1.1.20. **Set Table Name**
+Name the table as `green201501` according to [the naming conventions](../exercise-0-setup/naming-convention.md), click `Create`, then return to the `General` tab.
+![Step](../screenshots/1/Pipeline20.png)
 
 ## 1.1.20. **Detail Copy Activity**
 Name the copy activity to reflect its purpose, e.g., `Load NYC Taxi Green 2015 Jan`. Review and, if necessary, adjust the timeout, retry policies, and explore advanced options.
