@@ -71,7 +71,7 @@ Congratulations, your new workspace has been successfully created! This dedicate
 ![Login](../screenshots/start/Workspace4.png)
 
 
-## 15. Adjust default pool size to 2 nodes
+## 13. Adjust default pool size to 2 nodes
 
 To ensure smooth operation for multiple concurrent workshops happening today, you need to adjust the default configuration of the compute cluster in your Fabric workspace to scale down the maximum number of nodes to 2.
 
@@ -83,26 +83,26 @@ To ensure smooth operation for multiple concurrent workshops happening today, yo
    - Confirm that you are within the correct workspace view.
    - Access the workspace settings as indicated in the Fabric UI.
 
-![One Node](../screenshots/extra/onenode1.jpg)
+![One Node](../screenshots/extra/Node1.jpg)
 
 2. **Modify Default Pool Configuration**:
    - Go to Data Engineering / Data Science (it's under PowerBI) -> and then click on Spark settings. 
    - Locate the "default pool for workspace" setting.
    - Click on the pencil icon (marked as "1" in the provided screenshot) to edit the pool settings.
 
-![One Node](../screenshots/extra/onenode2.jpg)
+![One Node](../screenshots/extra/Node2.jpg)
 
 3. **Adjust Autoscale Settings and Save Changes**:
    - In the default pool configuration, change the autoscale maximum setting from 10 to 2. This limits the maximum number of nodes to 2 to prevent resource over-allocation.
    - Confirm and save your modifications to the default pool settings.
 
-![One Node](../screenshots/extra/onenode3.jpg)
+![One Node](../screenshots/extra/Node3.jpg)
 
 
 ## 16. Download the exercise files
  
 [Click here to download the repository as a Zip](https://github.com/ekote/Build-Your-First-End-to-End-Lakehouse-Solution/archive/refs/tags/fabcon.zip) or [here to download tar.gz package](https://github.com/ekote/Build-Your-First-End-to-End-Lakehouse-Solution/archive/refs/tags/fabcon.tar.gz) to your local machine. Alternatively, you can clone the [workshop GitHub repository](https://github.com/ekote/Build-Your-First-End-to-End-Lakehouse-Solution/tree/fabcon)."
-![Download or Clone Repository](../screenshots/start/CloneDownloadRepo.png)
+![Download or Clone Repository](../screenshots/start/Clone.png)
 
 ---
 
