@@ -39,6 +39,7 @@ Click on `New item` and then `Data pipeline`.
 
 > [!IMPORTANT]  
 > Please be aware that when accessing the data pipeline configuration pop-up, there may be a brief delay before it appears. Allow a few seconds for the pop-up window to load completely. In this window, you will have the option to specify the name of the data pipeline. It is important to avoid clicking multiple times during this delay, as this could result in the creation of multiple data pipelines inadvertently.
+
 ![Step](../screenshots/1/Pipeline2.png)
 
 
