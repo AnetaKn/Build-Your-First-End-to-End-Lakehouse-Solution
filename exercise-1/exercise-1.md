@@ -353,7 +353,7 @@ Ensure that the `bronzerawdata` Lakehouse is set as the default for the notebook
 ## Task 1.4 Management of Spark Sessions
 Learn to manage and terminate Spark sessions within your workspace to ensure efficient resource utilization and cost management.
 
-Note that the default session expiration time for Starter and Spark Pools is set to 20 minutes. A Spark pool will be deallocated if not used for 2 minutes after session expiration.
+Note that the default session expiration time for Starter and Spark Pools is set to 20 minutes. You can reset it or change it to higher duration by clicking on the Session Ready link at the bottom left of the notebook. A Spark pool will be deallocated if not used for 2 minutes after session expiration.
 
 **Action required <ins>after</ins> you follow the provided screenshots and descriptions.**
 
