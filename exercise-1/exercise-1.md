@@ -321,13 +321,13 @@ After the loading process completes, refresh the Lakehouse by clicking the three
 
 ## 1.3.10. Open in Notebook
 Notice that Fabric has generated a new notebook for you, containing the SQL to load your data from the newly created table.
-![Step](../screenshots/1/43.jpg)
+![Step](../screenshots/1/Shortcut10a.png)
 
-![Step](../screenshots/1/44.jpg)
+![Step](../screenshots/1/Shortcut10b.png)
 
 ## 1.3.11. Verify Notebook Configuration
 Following the correct execution, you should observe two tables under the `Tables` section and one folder under `Files`. Confirm everything is correct, then run the cell containing the PySpark code by clicking the run icon.
-![Step](../screenshots/1/45.jpg)
+![Step](../screenshots/1/Shortcut11.png)
 
 ## 1.3.12. Execute Query
 The query should execute within a few seconds, demonstrating the seamless integration and ease of use provided by Fabric as a true SaaS solution. Review the results displayed in the table.
@@ -336,7 +336,7 @@ The query should execute within a few seconds, demonstrating the seamless integr
 > Fabric Spark enforces a cores-based throttling and queueing mechanism, where users can submit jobs based on the purchased Fabric capacity SKUs. The queueing mechanism is a simple FIFO-based queue, which checks for available job slots and automatically retries the jobs once the capacity has become available. When users submit notebook or lakehouse jobs like Load to Table when their capacity is at its maximum utilization due to concurrent running jobs using all the Spark Vcores available for their purchased Fabric capacity SKU, they're throttled with the message **HTTP Response code 430: Unable to submit this request because all the available capacity is currently being used. The suggested solutions are to cancel a currently running job, increase the available capacity, or try again later.**.
 
 
-![Step](../screenshots/1/46.jpg)
+![Step](../screenshots/1/Shortcut12.png)
 
 > [!WARNING]
 > In Fabric, when you attach a Lakehouse to a notebook, metadata is saved in the notebook file. If you share this notebook by exporting and downloading it, the person receiving it will see a warning that it was linked to another Lakehouse. To prevent this, clear the notebook's attachments before sharing. If receiving a notebook with attachments, assign it to a new Lakehouse to avoid conflicts. 
@@ -346,7 +346,7 @@ The query should execute within a few seconds, demonstrating the seamless integr
 
 ## 1.3.13. Confirm Default Lakehouse
 Ensure that the `bronzerawdata` Lakehouse is set as the default for the notebook. Once confirmed, the task is successfully completed. Congratulations!
-![Step](../screenshots/1/47.jpg)
+![Step](../screenshots/1/Shortcut13.png)
 
 
 ## Task 1.4 Management of Spark Sessions
