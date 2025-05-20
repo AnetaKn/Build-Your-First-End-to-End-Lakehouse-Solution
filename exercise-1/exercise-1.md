@@ -30,141 +30,132 @@ For those who complete the primary tasks ahead of time, we've prepared [addition
 
 # Task 1.1 Create a pipeline that ingests data from an external Azure Blob Storage account and writes it to Lakehouse (Bronze layer)
 
-## 1.1.1. **Confirm Fabric Section and Workspace**
-Make sure that you are in the Fabric section and in the workspace that you created in previous excercise.
-![Step](../screenshots/1/Pipeline1.png)
+## 1.1.1. **Switch to Data Factory View**
+Navigate to the Data Factory section by following the numbered instructions on the screenshot provided.
 
-## 1.1.2. **Create a New Pipeline** 
-Click on `New item` and then `Data pipeline`.
+![Step](../screenshots/1/1.jpg)
+
+## 1.1.2. **Confirm Data Factory Access** 
+Ensure you are in the Data Factory section. Begin exploring data integration at scale using data pipelines.
 
 > [!IMPORTANT]  
 > Please be aware that when accessing the data pipeline configuration pop-up, there may be a brief delay before it appears. Allow a few seconds for the pop-up window to load completely. In this window, you will have the option to specify the name of the data pipeline. It is important to avoid clicking multiple times during this delay, as this could result in the creation of multiple data pipelines inadvertently.
 
-![Step](../screenshots/1/Pipeline2.png)
+![Step](../screenshots/1/2.jpg)
 
 
-## 1.1.3. **Name Your Data Pipeline**
-Name your data pipeline, recommended to be `LoadRawTaxiData`.
-![Step](../screenshots/1/Pipeline3.png)
+## 1.1.3. **Create and Name Your Data Pipeline**
+Name your data pipeline, recommended to be `LoadRawTaxiData`. Select `Pipeline Activity` and then `Copy Data`.
+
+![Step](../screenshots/1/3.jpg)
+
+## 1.1.4. **Edit Pipeline Elements**
+Make adjustments and observe the changes in the main screen's editing area.
+![Step](../screenshots/1/4.jpg)
 
 
-## 1.1.4. **Edit Pipeline Activity**
-Select `Pipeline Activity` and then `Copy Data`.
-![Step](../screenshots/1/Pipeline4.png)
+## 1.1.5. **Configure Data Store**
+In the new tab, set the data store type to `External` and then click `New Connection`.
+![Step](../screenshots/1/5.jpg)
 
 
-## 1.1.5. **Edit Pipeline Elements**
-Make adjustments and observe changes in the main editing area.
-![Step](../screenshots/1/Pipeline5.png)
+## 1.1.6. **Add Connection to Blob Storage**
+Change the filter from `All` to `Azure` and select `Azure Blob Storage` for the new connection.
+![Step](../screenshots/1/6.jpg)
 
 
-## 1.1.6. **Configure Data Store**
-In the `Source` tab, `Select` a connection and choose `More`.
-![Step](../screenshots/1/Pipeline6.png)
-
-
-## 1.1.7. **Add Connection to Blob Storage**
-Click on `New` and select `Azure Blobs` for the new connection.
-![Step](../screenshots/1/Pipeline7.png)
-
-
-## 1.1.8. **Set Connection Details** 
+## 1.1.7. **Set Connection Details** 
    - Copy and paste the URL from the task description into the relevant field.
-   - Blob Storage Account URL `https://transportationkotcorp.blob.core.windows.net/`
+     - Blob Storage Account URL `https://transportationkotcorp.blob.core.windows.net/`
    - For connection type, choose `Create a new connection`.
    - Retain the automatically generated connection name or modify it if necessary.
    - Select `Shared Access Signature (SAS)` for authentication.
 
-![Step](../screenshots/1/Pipeline8.png)
+![Step](../screenshots/1/7.jpg)
 
-## 1.1.9. **Enter SAS Token**
+## 1.1.8. **Enter SAS Token**
 Paste the SAS token from the description. This token grants temporary access to the blob storage, which will expire after a set duration.
 
 SAS Token (Read Only) `sv=2024-11-04&ss=bfqt&srt=sco&sp=rlacuptfx&se=2026-04-02T19:07:44Z&st=2025-04-02T11:07:44Z&spr=https&sig=dMB4e%2BN%2BBsXfBR%2FRwbrWKxja3t1Bzjm4q%2BqNTw03mcQ%3D`
-![Step](../screenshots/1/Pipeline9.png)
+![Step](../screenshots/1/8.jpg)
 
-## 1.1.10. **Test Connection**
+## 1.1.9. **Test Connection**
 Verify that the connection name is correctly displayed, then test the connection. If successful, click `Browse`.
-![Step](../screenshots/1/Pipeline10.png)
+![Step](../screenshots/1/9.jpg)
 
-## 1.1.11. **Navigate Blob Storage**
+## 1.1.10. **Navigate Blob Storage**
 Browse the blob storage and select the `taxidata` folder.
-![Step](../screenshots/1/Pipeline11.png)
+![Step](../screenshots/1/10.jpg)
 
-## 1.1.12. **Select Data File**
+## 1.1.11. **Select Data File**
 Choose a specific Parquet file and click `OK`.
-![Step](../screenshots/1/Pipeline12.png)
+![Step](../screenshots/1/11.jpg)
 
-## 1.1.13. **File Path and Format**
-Note additional elements in the file path section. Change the file format to `Parquet` and click `Preview data`.
-![Step](../screenshots/1/Pipeline13.png)
+## 1.1.12. **File Path and Format**
+Note additional elements in the file path section. Change the file format to `Parquet` and click `Preview Data`.
+![Step](../screenshots/1/12.jpg)
 
-## 1.1.14. **Preview External Data**
+## 1.1.13. **Preview External Data**
 Review the data preview showing the table contents from the external blob storage, then close the preview window.
-![Step](../screenshots/1/Pipeline14.png)
+![Step](../screenshots/1/13.jpg)
 
-## 1.1.15. **Set Data Destination**
-Switch to the `Destination` tab, select `More`.
-![Step](../screenshots/1/Pipeline15.png)
+## 1.1.14. **Define Data Destination**
+Switch to the `Destination` tab, select `Storage Workspace`, then `Lakehouse` and click `New` to create a new Lakehouse.
+![Step](../screenshots/1/14.jpg)
 
-## 1.1.16. **Define Data Destination**
-In the `Home` section select `Lakehouse` and click `New` to create a new Lakehouse.
-![Step](../screenshots/1/Pipeline16.png)
+## 1.1.15. **Name the Lakehouse**
+Follow [the naming conventions provided](../exercise-0-setup/naming-convention.md), input the name, and click `Create`.
+![Step](../screenshots/1/15.jpg)
 
-## 1.1.17. **Name the Lakehouse**
-Select your workspace. Follow [the naming conventions provided](../exercise-0-setup/naming-convention.md), input the name, and click `Create and connect`.
-![Step](../screenshots/1/Pipeline17.png)
-
-## 1.1.18. **Review Lakehouse**
+## 1.1.16. **Review Lakehouse**
 Verify the newly created Lakehouse is visible under the appropriate tab.
-![Step](../screenshots/1/Pipeline18.png)
+![Step](../screenshots/1/16.jpg)
 
-## 1.1.19. **Configure Advanced Options**
+## 1.1.17. **Configure Advanced Options**
 Expand the `Advanced Options` and select the desired table action, such as `Append`. Specify the table by clicking `New`.
-![Step](../screenshots/1/Pipeline19.png)
+![Step](../screenshots/1/17.jpg)
 
-## 1.1.20. **Set Table Name**
+## 1.1.18. **Set Table Name**
 Name the table as `green201501` according to [the naming conventions](../exercise-0-setup/naming-convention.md), click `Create`, then return to the `General` tab.
-![Step](../screenshots/1/Pipeline20.png)
+![Step](../screenshots/1/18.jpg)
 
-## 1.1.20. **Detail Copy Activity**
+## 1.1.19. **Detail Copy Activity**
 Name the copy activity to reflect its purpose, e.g., `Load NYC Taxi Green 2015 Jan`. Review and, if necessary, adjust the timeout, retry policies, and explore advanced options.
-![Step](../screenshots/1/Pipeline20.png)
+![Step](../screenshots/1/19.jpg)
 
-## 1.1.21. **Validate Pipeline**
+## 1.1.20. **Validate Pipeline**
 Ensure the pipeline is error-free by clicking `Validate`. Once validated, close the sidebar.
-![Step](../screenshots/1/Pipeline21.png)
+![Step](../screenshots/1/20.jpg)
 
-## 1.1.22. **Save and Run Pipeline**
+## 1.1.21. **Save and Run Pipeline**
 Save your pipeline settings by clicking `Save`, then initiate the pipeline by clicking `Run`.
-![Step](../screenshots/1/Pipeline22.png)
+![Step](../screenshots/1/21.jpg)
 
 
 > [!NOTE]
-> Fabric's intelligent compute resources are dynamically adjusted based on historical usage, peak demands, and current activity levels. With many of us today working simultaneously, primarily within the same region, startup times for Spark compute instances may be longer than usual. Typically, our starter pool initiates new Spark sessions in about 10 seconds.
+> Fabric's intelligent compute resources are dynamically adjusted based on historical usage, peak demands, and current activity levels. With nearly 600 of us today working simultaneously, primarily within the same region, startup times for Spark compute instances may be longer than usual. Typically, our starter pool initiates new Spark sessions in about 10 seconds. However, due to today's high volume, we may transition to the on-demand pool, resulting in wait times of approximately 2 to 3 minutes for some sessions.
 
 
-## 1.1.23. **Monitor Pipeline Execution**
+## 1.1.22. **Monitor Pipeline Execution**
 Observe the notification indicating the pipeline is running, then switch to the `Output` tab.
-![Step](../screenshots/1/Pipeline23.png)
+![Step](../screenshots/1/22.jpg)
 
-## 1.1.24. **Confirm Pipeline Success**
+## 1.1.23. **Confirm Pipeline Success**
 Check the completion time and ensure the pipeline has succeeded. Click on the highlighted activity name for more details.
-![Step](../screenshots/1/Pipeline24.png)
+![Step](../screenshots/1/23.jpg)
 
-## 1.1.25. **Review Data Transfer Details**
+## 1.1.24. **Review Data Transfer Details**
 In the sidebar, review details such as total duration and the amount of data transferred. Then navigate back to your workspace using the icon indicated as number three.
-![Step](../screenshots/1/Pipeline25.png)
+![Step](../screenshots/1/24.jpg)
 
-## 1.1.26. **Access Your Workspace**
+## 1.1.25. **Access Your Workspace**
 In your workspace, you should find the `LoadRawTaxiData` pipeline and the `bronzerawdata` Lakehouse. Enter the Lakehouse.
-![Step](../screenshots/1/Pipeline26.png)
+![Step](../screenshots/1/25.jpg)
 
-## 1.1.27. **Review Data Table**
+## 1.1.26. **Review Data Table**
 In the `Tables` section, observe the new table and preview the data it contains.
 
-![Step](../screenshots/1/Pipeline27.png)
-
+![Step](../screenshots/1/26.jpg)
 
 ---
 
@@ -216,34 +207,36 @@ You can work with the data in the lakehouse in two modes:
 
 Fabric's data warehouse experience allows you to transition from the lake view of the Lakehouse (which supports data engineering and Apache Spark) to the SQL experiences that a traditional data warehouse would provide.
 
-![Step](../screenshots/1/27.jpg)
+![Step](../screenshots/1/Lakehouse2.jpg)
 
 ## 1.2.2. **Explore Lakehouse Properties**
 In the `Tables` section of your Lakehouse, click the three dots next to your table name and select `Properties` from the dropdown menu.
-![Step](../screenshots/1/28.jpg)
+![Step](../screenshots/1/Lakehouse3.jpg)
 
 ## 1.2.3. **Data Format and Management**
 Observe that the table's data format is listed as `Managed`, indicating that the table is a managed entity. Also, note that this table has been optimized using Z-order optimization; further details can be found in the extra section.
-![Step](../screenshots/1/29.jpg)
+![Step](../screenshots/1/Lakehouse4.managed.jpg)
 
 > [!TIP]
 > Explore managed vs unmanaged tables for Fabric Spark by [reviewing an article written by our teammate Aitor, who is part of the Customer Advisory Team](https://murggu.medium.com/creating-managed-and-external-spark-tables-in-fabric-lakehouse-ef6212e75e81).
 
 ## 1.2.4. **Review Table Files**
-Return to the Lakehouse overview, expand the table options, and select `Files` to examine the data. Notice that your loaded data is in Parquet format, which is now part of a Delta Lake due to the conversion process.
-![Step](../screenshots/1/30.jpg)
+Return to the Lakehouse overview, expand the table options, and select `Files` to examine the data. 
+![Step](../screenshots/1/Lakehouse5a.jpg)
+
+Notice that your loaded data is in Parquet format, which is now part of a Delta Lake due to the conversion process.
+![Step](../screenshots/1/Lakehouse5b.jpg)
 
 ## 1.2.5. **Final Lakehouse Overview**
 Navigate back to the main Lakehouse view, expand the table options for the final time, and select `Maintenance`.
-![Step](../screenshots/1/31.jpg)
+![Step](../screenshots/1/Lakehouse6.maintenance.jpg)
 
 ## 1.2.6. **Maintenance Options and Optimization**
 Here, you will find options for optimizing file size and vacuuming, which involves removing files that are no longer needed. Both processes can be automated. This section also details how Z-order optimization is applied to your data; hover over the information icon for more details.
-![Step](../screenshots/1/32.jpg)
+![Step](../screenshots/1/Lakehouse7.jpg)
 
 ## 1.2.7. **Completion of Task**
 With the exploration of the Lakehouse's features and maintenance options, this task is now completed.
-![Step](../screenshots/1/33.jpg)
 
 
 </details>
