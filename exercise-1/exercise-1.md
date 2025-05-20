@@ -349,6 +349,7 @@ Ensure that the `bronzerawdata` Lakehouse is set as the default for the notebook
 ![Step](../screenshots/1/Shortcut13.png)
 
 
+
 ## Task 1.4 Management of Spark Sessions
 Learn to manage and terminate Spark sessions within your workspace to ensure efficient resource utilization and cost management.
 
