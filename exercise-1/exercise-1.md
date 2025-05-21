@@ -216,37 +216,37 @@ You can work with the data in the lakehouse in two modes:
 
 Fabric's data warehouse experience allows you to transition from the lake view of the Lakehouse (which supports data engineering and Apache Spark) to the SQL experiences that a traditional data warehouse would provide.
 
-![Step](../screenshots/1/Lakehouse2.jpg)
+![Step](../screenshots/1/Lakehouse2.png)
 
 ## 1.2.2. **Explore Lakehouse Properties**
 In the `Tables` section of your Lakehouse, click the three dots next to your table name and select `Properties` from the dropdown menu.
-![Step](../screenshots/1/Lakehouse3.jpg)
+![Step](../screenshots/1/Lakehouse3.png)
 
 ## 1.2.3. **Data Format and Management**
 Observe that the table's data format is listed as `Managed`, indicating that the table is a managed entity. Also, note that this table has been optimized using Z-order optimization; further details can be found in the extra section.
-![Step](../screenshots/1/Lakehouse4.managed.jpg)
+![Step](../screenshots/1/Lakehouse4.managed.png)
 
 > [!TIP]
 > Explore managed vs unmanaged tables for Fabric Spark by [reviewing an article written by our teammate Aitor, who is part of the Customer Advisory Team](https://murggu.medium.com/creating-managed-and-external-spark-tables-in-fabric-lakehouse-ef6212e75e81).
 
 ## 1.2.4. **Review Table Files**
 Return to the Lakehouse overview, expand the table options, and select `Files` to examine the data. 
-![Step](../screenshots/1/Lakehouse5a.jpg)
+![Step](../screenshots/1/Lakehouse5a.png)
 
 Notice that your loaded data is in Parquet format, which is now part of a Delta Lake due to the conversion process.
-![Step](../screenshots/1/Lakehouse5b.jpg)
+![Step](../screenshots/1/Lakehouse5b.png)
 
 ## 1.2.5. **Final Lakehouse Overview**
 Navigate back to the main Lakehouse view, expand the table options for the final time, and select `Maintenance`.
-![Step](../screenshots/1/Lakehouse6.maintenance.jpg)
+![Step](../screenshots/1/Lakehouse6.maintenance.png)
 
 ## 1.2.6. **Maintenance Options and Optimization**
 Here, you will find options for optimizing file size and vacuuming, which involves removing files that are no longer needed. Both processes can be automated. This section also details how Z-order optimization is applied to your data; hover over the information icon for more details.
-![Step](../screenshots/1/32.jpg)
+![Step](../screenshots/1/Lakehouse7.png)
 
 ## 1.2.7. **Completion of Task**
 With the exploration of the Lakehouse's features and maintenance options, this task is now completed.
-![Step](../screenshots/1/Lakehouse7.jpg)
+
 
 
 </details>
@@ -274,47 +274,46 @@ Remember, our team is here to guide you through every step of this process. Do n
 
 ## 1.3.1. Expand File Options
 Expand on the options for the file section by clicking the three dots for the `Files`. Then, select the `New Shortcut` option.
-![Step](../screenshots/1/34.jpg)
+![Step](../screenshots/1/Shortcut1.png)
 
 ## 1.3.2. Shortcut Options
-There are multiple source options available for accessing data directly without copying. Currently, shortcuts support data from OneLake, Amazon S3, Azure Data Lake Storage Gen2, and Dataverse. Select `Azure Data Lake Storage Gen2` as indicated on the screen and click `Next`.
-![Step](../screenshots/1/35.jpg)
+There are multiple source options available for accessing data directly without copying. Currently, shortcuts support data from OneLake, Amazon S3, Azure Data Lake Storage Gen2, Dataverse, Amazon S3 Compatible and Google Cloud Storage. Select `Azure Data Lake Storage Gen2` as indicated on the screen.
+![Step](../screenshots/1/Shortcut2.png)
 
 ## 1.3.3. Configure New Shortcut
-Provide the necessary URL by copying and pasting it from the task description. Then, choose your connection, retaining the automatically generated name if possible. For authentication, select `SAS token`, paste the provided token, and then click `Next` after filling in all details.
+Click on Create new connection radio button at the top and provide the necessary URL by copying and pasting it from the task description. Then, choose your connection, retaining the automatically generated name if possible. For authentication, select SAS token, paste the provided token, 
+and then click Next after filling in all details.
 
 * Blob Storage Account URL `https://transportation23kotco.dfs.core.windows.net/`
 * SAS Token (Read Only) `sv=2024-11-04&ss=bfqt&srt=sco&sp=rwlacupx&se=2026-04-02T20:49:20Z&st=2025-04-02T12:49:20Z&spr=https&sig=3o8OvFzu8NP9MtVxaG1dnzoczi%2B1a6uLQiq7lEZDGlI%3D`
 
-![Step](../screenshots/1/36.jpg)
+![Step](../screenshots/1/Shortcut3.png)
 
 **If you encounter the error message `The specified connection name already exists. Try choosing a different name`, please make sure that the name you choose for the connection is unique.**
 
 ## 1.3.4. Verify ADLS Gen2 Access
-Ensure correct configuration by checking the folder named `2023`. Inside it, locate a Parquet file. Confirm the selection of the appropriate folder as shown on the screen, then click `Next`.
+Ensure correct configuration by checking the folder named 2023. Inside it, locate a Parquet file. Confirm the selection of the appropriate folder as shown on the screen, then click Next and then Create.
 
 > ![!IMPORTANT]
 > We are creating a demo to a folder named 2023, and you need to just observe and ack that inside that folder there is a required file (as presented on the screenshot). 
 
-![Step](../screenshots/1/37.jpg)
+![Step](../screenshots/1/Shortcut4.png)
 
 ## 1.3.5. Shortcut Configuration Success
 Successfully configured access to your data via shortcuts, without needing to copy it. The shortcut should now appear under the `Files` section, indicating a link to a folder containing Parquet files.
-![Step](../screenshots/1/38.jpg)
+![Step](../screenshots/1/Shortcut5.png)
 
 ## 1.3.6. Load to Table (Delta Table) Parquet Data
-To transform the Parquet data into a Delta table, click the three dots next to the file name as shown on the screen, then select `Load Tables`.
-![Step](../screenshots/1/39.jpg)
+To transform the Parquet data into a Delta table, click the three dots next to the file name as shown on the screen, then select `Load to Tables` and then New table.
+![Step](../screenshots/1/Shortcut6.png)
 
-## 1.3.7. Select and Name New Table
-Choose the `New Table` option as presented on the screen and Name the new table as `green202301` as we follow [the provided naming conventions](../exercise-0-setup/naming-convention.md), then click `Load`.
-![Step](../screenshots/1/40.jpg)
-
-![Step](../screenshots/1/41.jpg)
+## 1.3.7. Name New Table
+Name the new table as `green202301` as we follow [the provided naming conventions](../exercise-0-setup/naming-convention.md), then click `Load`.
+![Step](../screenshots/1/Shortcut7.png)
 
 ## 1.3.8. Notification of Loading Process
 Acknowledge the notification indicating that your file is currently being loaded into the table.
-![Step](../screenshots/1/42.jpg)
+![Step](../screenshots/1/Shortcut8.png)
 
 ## 1.3.9. Refresh Lakehouse
 After the loading process completes, refresh the Lakehouse by clicking the three dots next to the table and selecting `Refresh`. A new table should now be visible.
