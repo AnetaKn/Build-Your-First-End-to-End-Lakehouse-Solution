@@ -14,7 +14,7 @@
 > * [Task 2.7 Automation](#task-27-automation)
 > * [Task 2.8 Confirm End Results](#task-28-confirm-end-results)
 > * [Task 2.9 Create Gold Lakehouse (required for Exercise 4)](#task-29-create-gold-lakehouse-required-for-exercise-4)
-> * [Testujemy](test-aneta-i-monika)
+> * [Test aneta i monika](test-aneta-i-monika)
 
 #Test aneta i monika
 
