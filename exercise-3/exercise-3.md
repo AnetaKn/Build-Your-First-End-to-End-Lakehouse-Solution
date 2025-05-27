@@ -61,10 +61,17 @@ The goal of this task is to establish a connection to a Fabric SQL Endpoint usin
 
     ![password](../screenshots/3/pwd.jpg)
 
-4. **Enter User Credentials**:
+   - If you encounter issues with Microsoft Entra Password try using Microsoft Entra MFA option.
+
+    ![password](../screenshots/3/3.2.3.2.jpg)
+
+    ![password](../screenshots/3/3.2.3.3.jpg)
+   
+
+5. **Enter User Credentials**:
    - In the authentication window that appears, enter your workshop user email or your enterprise email ID. Follow the prompts to complete the multifactor authentication process.
 
-5. **Explore the Lakehouse**:
+6. **Explore the Lakehouse**:
    - Once connected, the Object Explorer panel in SSMS will show the connected Lakehouse. You can expand the server node to view the databases (lakehouses) and navigate through tables, views, and other objects available for querying.
 
 > [!IMPORTANT]
