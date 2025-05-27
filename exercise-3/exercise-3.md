@@ -61,7 +61,7 @@ The goal of this task is to establish a connection to a Fabric SQL Endpoint usin
 
     ![password](../screenshots/3/pwd.jpg)
 
-   - If you encounter issues with Microsoft Entra Password try using Microsoft Entra MFA option.
+   - If you encounter issues with `Microsoft Entra Password` try using `Microsoft Entra MFA` option.
 
     ![password](../screenshots/3/3.2.3.2.png)
 
