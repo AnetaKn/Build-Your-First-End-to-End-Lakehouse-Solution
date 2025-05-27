@@ -5,15 +5,15 @@
 > 
 > [Back to Agenda](./../README.md#agenda) | [Back to Exercise 1](./../exercise-1/exercise-1.md) | [Up next Exercise 3](./../exercise-3/exercise-3.md)
 > #### List of exercises:
-> * [Task 2.1 Different ways to get data from the lakehouse](#task-22-different-ways-to-get-data-from-the-lakehouse)
-> * [Task 2.2 Side Loading (local upload) and Load to Delta for CSV file](#task-23-side-loading-local-upload-and-load-to-delta-for-csv-file)
-> * [Task 2.3 Import pre-made notebook](#task-24-import-pre-made-notebook)
-> * [Task 2.4 Attach the bronze Lakehouse](#task-25-attach-the-bronze-lakehouse)
-> * [Task 2.5 Create a silver lakehouse](#task-26-create-a-silver-lakehouse)
-> * [Task 2.6 Follow the Notebook](#task-27-follow-the-notebook)
-> * [Task 2.7 Automation](#task-28-automation)
-> * [Task 2.8 Confirm End Results](#task-29-confirm-end-results)
-> * [Task 2.9 Create Gold Lakehouse (required for Exercise 4)](#task-210-create-gold-lakehouse-required-for-exercise-4)
+> * [Task 2.1 Different ways to get data from the lakehouse](#task-21-different-ways-to-get-data-from-the-lakehouse)
+> * [Task 2.2 Side Loading (local upload) and Load to Delta for CSV file](#task-22-side-loading-local-upload-and-load-to-delta-for-csv-file)
+> * [Task 2.3 Import pre-made notebook](#task-23-import-pre-made-notebook)
+> * [Task 2.4 Attach the bronze Lakehouse](#task-24-attach-the-bronze-lakehouse)
+> * [Task 2.5 Create a silver lakehouse](#task-25-create-a-silver-lakehouse)
+> * [Task 2.6 Follow the Notebook](#task-26-follow-the-notebook)
+> * [Task 2.7 Automation](#task-27-automation)
+> * [Task 2.8 Confirm End Results](#task-28-confirm-end-results)
+> * [Task 2.9 Create Gold Lakehouse (required for Exercise 4)](#task-29-create-gold-lakehouse-required-for-exercise-4)
 
 
 
