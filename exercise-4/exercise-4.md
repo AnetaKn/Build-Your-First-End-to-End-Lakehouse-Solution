@@ -50,7 +50,7 @@ In this exercise, you will take on the role of a data scientist tasked with expl
    - Navigate to your Fabric workspace, either in the Data Engineering or Data Science section.
    - Import the downloaded notebook by following the instructions provided in [Exercise 2.3.1 - Importing Notebooks](https://github.com/AnetaKn/Build-Your-First-End-to-End-Lakehouse-Solution/blob/fabcon/exercise-2/exercise-2.md#231-importing-notebook). This involves selecting the option to import existing notebooks and choosing the downloaded .ipynb file from your local computer.
 
-[Test](#231-importing-notebook)
+[Test](exercise-2.md#231-importing-notebook)
 
 3. **Follow Notebook Instructions**:
    - Once the notebook is imported into your Fabric workspace, open it.
