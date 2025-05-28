@@ -109,11 +109,11 @@ Select the recently downloaded file, likely named NYC-Taxi-Discounts-Per-Day.csv
 The file should upload within a few seconds. This method provides a straightforward approach to augmenting your Lakehouse data.
 ![Step](../screenshots/2/2.2.4.01.png)
 
-## 2.3.5. Refreshing and Locating the File
+## 2.2.5. Refreshing and Locating the File
 Refresh the Lakehouse's `Files` section to view the newly uploaded file. Employ the drag-and-drop feature to move this file into your notebook. This action will generate a cell prepopulated with code, which you can execute to review the new data.
 ![Step](../screenshots/2/2.2.5.01.png)
 
-## 2.3.6. Renaming the Notebook
+## 2.2.6. Renaming the Notebook
 Assign an appropriate name to your notebook reflecting its purpose, such as `Data Exploration` or `Discount Analysis`, to maintain clarity and organization within your projects.
 ![Step](../screenshots/2/2.2.6.01.png)
 
