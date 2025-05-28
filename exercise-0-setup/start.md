@@ -83,20 +83,20 @@ To ensure smooth operation for multiple concurrent workshops happening today, yo
    - Confirm that you are within the correct workspace view.
    - Access the workspace settings as indicated in the Fabric UI.
 
-![One Node](../screenshots/extra/Node1.jpg)
+![One Node](../screenshots/start/Node1.PNG)
 
 2. **Modify Default Pool Configuration**:
    - Go to Data Engineering / Data Science (it's under PowerBI) -> and then click on Spark settings. 
    - Locate the "default pool for workspace" setting.
    - Click on the pencil icon (marked as "1" in the provided screenshot) to edit the pool settings.
 
-![One Node](../screenshots/extra/Node2.jpg)
+![One Node](../screenshots/start/Node2.PNG)
 
 3. **Adjust Autoscale Settings and Save Changes**:
    - In the default pool configuration, change the autoscale maximum setting from 10 to 2. This limits the maximum number of nodes to 2 to prevent resource over-allocation.
    - Confirm and save your modifications to the default pool settings.
 
-![One Node](../screenshots/extra/Node3.jpg)
+![One Node](../screenshots/start/Node3.PNG)
 
 
 ## 14. Download the exercise files
