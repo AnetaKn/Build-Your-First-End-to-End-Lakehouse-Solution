@@ -125,7 +125,8 @@ Assign an appropriate name to your notebook reflecting its purpose, such as `Dat
 > You can import one or more existing notebooks from your local computer to a Fabric workspace. Fabric notebooks recognize the standard Jupyter Notebook .ipynb files, and source files like .py, .scala, and .sql, and create new notebook items accordingly.
 
 ## 2.3.1. Importing notebook
-If you have not downloaded the repository ([Step 16. Download the exercise files](../exercise-0-setup/start.md#16-download-the-exercise-files)), **you can download just a separate notebook. [This screenshot presents the steps to do that.](../screenshots/extra/download-notebook.jpg)**
+If you have not downloaded the repository ([Step 16. Download the exercise files](../exercise-0-setup/start.md#16-download-the-exercise-files)), **you can download just a separate notebook.
+[This screenshot presents the steps to do that.](../screenshots/extra/download-notebook.jpg)**
 
 Ensure you are your Fabric workspace. Then select the Import dropdown button and click on 'Notebook' to open the Import status dialog box. From here, choose the notebook you've recently downloaded, named [notebook-2.ipynb](https://github.com/ekote/Build-Your-First-End-to-End-Lakehouse-Solution/blob/fabcon/exercise-2/notebook-2.ipynb), and initiate the upload.
 ![Step](../screenshots/2/2.3.1.01.png)
