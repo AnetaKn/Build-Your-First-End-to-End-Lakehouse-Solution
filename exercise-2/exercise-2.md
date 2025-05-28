@@ -71,7 +71,7 @@ df.select("VendorID", "trip_distance", "fare_amount", "tip_amount").show(5)
 The code `df.select("VendorID", "trip_distance", "fare_amount", "tip_amount").show(5)` is used to display the first five rows of a DataFrame called df, and only the columns named: `vendorID`, `tripDistance`, `fareAmount`, `tipAmount`. This is a useful function when working with large datasets to quickly inspect the data and ensure that it has been loaded correctly.
 
 
-## 2.2.4. Understanding Data Workflows
+## 2.1.4. Understanding Data Workflows
 When working with large datasets, starting with data retrieval sets the foundation for subsequent data analysis tasks, which may include filtering, sorting, and aggregating data. As you delve deeper, you may encounter more complex data engineering tasks such as cleansing, transformation, and aggregation, essential for advanced data analysis and insights extraction.
 
 
