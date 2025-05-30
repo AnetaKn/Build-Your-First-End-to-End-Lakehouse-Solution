@@ -252,10 +252,10 @@ Dive deep into the functionalities of Data Wrangler within Fabric, focusing spec
 Open your Fabric environment and navigate to the Data Wrangler tool within your notebook.
 Load a Pandas DataFrame that you wish to analyze. If you don't have a specific dataset in mind, utilize a sample dataset provided within the platform.
 
-![Step](../screenshots/5/dw.jpg)
-![Step](../screenshots/5/dw1.jpg)
-![Step](../screenshots/5/dw2.jpg)
-![Step](../screenshots/5/dw3.jpg)
+![Step](../screenshots/5/DW01.png)
+![Step](../screenshots/5/DW02.png)
+![Step](../screenshots/5/DW03.png)
+![Step](../screenshots/5/DW04.png)
 
 ## Exploratory Data Analysis
 
@@ -263,9 +263,10 @@ Utilize the grid-like data display to review your dataset. Pay attention to the 
 Generate dynamic summary statistics to gain quick insights into the mean, median, mode, min, and max of your data columns.
 Leverage built-in visualizations to understand data distributions, correlations, and outliers. Experiment with different chart types to best represent your data.
 
-![Step](../screenshots/5/dw4.jpg)
-![Step](../screenshots/5/dw5.jpg)
-![Step](../screenshots/5/dw6.jpg)
+![Step](../screenshots/5/DW05.png)
+![Step](../screenshots/5/DW06.png)
+![Step](../screenshots/5/DW07.png)
+
 
 ## Data Cleaning Operations
 
@@ -278,7 +279,7 @@ Evaluate the impact of your data transformations on the summary statistics and v
 As you apply transformations within Data Wrangler, observe the automatic generation of corresponding code in either Pandas or PySpark.
 Save the generated code back to your notebook as a reusable function. This practice not only enhances your understanding of data transformations but also builds a library of custom functions for future analysis.
 
-![Step](../screenshots/5/dw7.jpg)
+![Step](../screenshots/5/DW08.png)
 
 ## To learn more, I encourage you to watch the Fabric Espresso episode about Data Wrangler.
 [![FabricEspresso](https://img.youtube.com/vi/-g6KveKQXu4/0.jpg)](https://www.youtube.com/watch?v=-g6KveKQXu4)
