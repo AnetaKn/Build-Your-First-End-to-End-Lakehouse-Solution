@@ -263,9 +263,9 @@ Utilize the grid-like data display to review your dataset. Pay attention to the 
 Generate dynamic summary statistics to gain quick insights into the mean, median, mode, min, and max of your data columns.
 Leverage built-in visualizations to understand data distributions, correlations, and outliers. Experiment with different chart types to best represent your data.
 
-![Step](../screenshots/5/DW05.png)
-![Step](../screenshots/5/DW06.png)
-![Step](../screenshots/5/DW07.png)
+![Step](../screenshots/5/DW5.png)
+![Step](../screenshots/5/DW6.png)
+![Step](../screenshots/5/DW7.png)
 
 
 ## Data Cleaning Operations
@@ -279,7 +279,7 @@ Evaluate the impact of your data transformations on the summary statistics and v
 As you apply transformations within Data Wrangler, observe the automatic generation of corresponding code in either Pandas or PySpark.
 Save the generated code back to your notebook as a reusable function. This practice not only enhances your understanding of data transformations but also builds a library of custom functions for future analysis.
 
-![Step](../screenshots/5/DW08.png)
+![Step](../screenshots/5/DW8.png)
 
 ## To learn more, I encourage you to watch the Fabric Espresso episode about Data Wrangler.
 [![FabricEspresso](https://img.youtube.com/vi/-g6KveKQXu4/0.jpg)](https://www.youtube.com/watch?v=-g6KveKQXu4)
