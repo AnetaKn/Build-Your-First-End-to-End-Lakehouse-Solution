@@ -151,7 +151,7 @@ This step-by-step guide will help you to integrate your Lakehouse with the pre-m
 In your opened notebook, go to add data items and select "Existing data source".
 ![Step](../screenshots/2/2.4.1.01.png)
 
-## 2.4.2. Choosing Your Lakehous
+## 2.4.2. Choosing Your Lakehouse
 
 From the list of available Lakehouses, identify and select your own, named `bronzerawdata`. Be careful to choose the correct one to ensure accurate data analysis. Once confirmed, click `Connect` to attach it to your notebook.
 ![Step](../screenshots/2/2.4.2.02.png)
